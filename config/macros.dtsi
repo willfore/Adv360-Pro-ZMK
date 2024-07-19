@@ -2,7 +2,7 @@ macro_cmd_space: macro_cmd_space{
 compatible = "zmk,behavior-macro";
 label = "macro_cmd_space";
 #binding-cells = <0>;
-bindings = <&kp SPACE>;
+bindings = <&sk LCMD>, <&kp SPACE>;
 };
 macro_copy: macro_copy{
 compatible = "zmk,behavior-macro";
